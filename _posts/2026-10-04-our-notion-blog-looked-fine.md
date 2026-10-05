@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Our Notion Blog Looked Fine Until Every Image Started Vanishing"
+date: 2026-10-04 12:00:00 +0600
+categories: [engineering]
+excerpt: "Production images broke without a code deploy—Notion signed URLs expired. Here is the build-time R2/CDN pipeline and content-hash fix."
 ---
 <img width="1470" height="835" alt="Screenshot 2026-09-15 at 9 52 13 PM" src="https://github.com/user-attachments/assets/373c614a-edea-4425-ad43-d0cec1c48bea" />
 

@@ -1,0 +1,19 @@
+title: Noshina Afrin Tanisha
+email: afrintanisha184@gmail.com
+description: Cloud and platform engineer — production systems, AWS, CI/CD, and notes from the field.
+baseurl: ""
+url: "https://tanisha184.github.io"
+github_username: Tanisha184
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - about.md
+
+show_excerpts: true
+
+markdown: kramdown
