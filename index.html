@@ -1,0 +1,33 @@
+---
+layout: default
+title: Home
+---
+
+<section class="home-hero">
+  <h1>Cloud &amp; platform engineering notes</h1>
+  <p class="lead">
+    Production systems, CI/CD, object storage, CDN, and the bugs that only show up after deploy.
+    Written by Noshina Afrin Tanisha.
+  </p>
+  <div class="meta-row">
+    <span>Cloud &amp; platform engineer</span>
+    <a href="mailto:afrintanisha184@gmail.com">Email</a>
+    <a href="https://github.com/Tanisha184" rel="noopener">GitHub</a>
+    <a href="{{ '/about/' | relative_url }}">About</a>
+  </div>
+</section>
+
+<p class="section-label">Latest writing</p>
+<ul class="post-cards">
+  {% for post in site.posts %}
+  <li class="post-card">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+    {% if post.excerpt %}
+    <p>{{ post.excerpt | strip_html | truncate: 220 }}</p>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<p class="rss-note"><a href="{{ '/feed.xml' | relative_url }}">RSS feed</a> for new posts.</p>
