@@ -4,7 +4,7 @@ Personal site and engineering notes for **Noshina Afrin Tanisha**.
 
 **Live site:** [https://tanisha184.github.io](https://tanisha184.github.io)
 
-**Latest post:** [Our Notion Blog Looked Fine Until Every Image Started Vanishing](https://tanisha184.github.io/engineering/2026/10/04/our-notion-blog-looked-fine.html)
+**Latest post:** [Is React Bad for SEO?](https://tanisha184.github.io/engineering/2026/10/07/is-react-bad-for-seo.html)
 
 Built with Jekyll (Minima theme) on GitHub Pages.
 
