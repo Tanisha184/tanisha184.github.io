@@ -4,7 +4,7 @@ title: "Is React Bad for SEO?"
 date: 2026-10-07 12:00:00 +0600
 categories: [engineering]
 excerpt: "React is not inherently bad for SEO. What matters is how public pages are rendered—CSR, SSG, or SSR—and whether crawlers get complete HTML."
-image: /assets/images/blog/is-react-bad-for-seo/whatsapp-link-previews.png
+image: /assets/images/blog/is-react-bad-for-seo/og.png
 ---
 
 If someone told you “We shouldn’t use React because it’s bad for Google,” you’re not alone. That concern comes up in client calls, RFPs, and conversations between marketing and development teams.
